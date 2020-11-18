@@ -1,0 +1,10 @@
+.logo {
+  text-align: center;
+}
+
+.logo a {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 40px;
+  text-decoration: none;
+  color: #333;
+}
