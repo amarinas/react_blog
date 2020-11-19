@@ -1,14 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
+import {BiSearchAlt} from 'react-icons/bi';
 import './style.css'
 
 
 const Navbar= (props) => {
+
+  const [search, setSearch] = useState(false);
   
   const submitSearch=(e) =>  {
     e.preventDefault();
     alert("searched");
-
   }
+
+  const openSearch = () => {
+    setSearch(true);
+  }
+
+  const searchClass = search ? 'searchInput active' : 'searchInput';
+
+
 return(
   <div className="navbar">
     <ul className="navbarMenu">
@@ -19,8 +29,8 @@ return(
     </ul>
     <div className="search">
       <form onSubmit={submitSearch}>
-      <input type="text" className="searchInput" placeholder="Search"/>
-      <img src={require('../../assets/icons/search2.png')} alt="search" />
+      <input type="text" className={searchClass} placeholder="Search"/>
+      <BiSearchAlt img onClick={openSearch} className="searchIcon" src="" alt="search" />
       </form>
     </div>
   </div>
