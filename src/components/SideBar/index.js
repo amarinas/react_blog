@@ -4,7 +4,7 @@ import './style.css';
 
 const SideBar = (props) => {
 return(
-    <Card style={{width:'27%', borderRadius: '20px'}}>
+    <Card style={{width:'27%'}}>
       Sidebar
     </Card>
 )
