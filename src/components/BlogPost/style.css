@@ -22,6 +22,17 @@
 .postedBy {
   font-size: 15px;
   font-style: italic;
-  padding: 10px 0;
+  padding: 10px;
   display: block;
+}
+
+.postImageContainer {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.postImageContainer img {
+  max-width: 100%;
+  max-height: 100%;
 }

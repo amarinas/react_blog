@@ -18,7 +18,10 @@ function App() {
       <Route path="/post" component={Post} />
       
     </div>
+    
     </Router>
+    
+    
   );
 }
 
