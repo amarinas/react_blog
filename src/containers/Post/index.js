@@ -5,9 +5,12 @@ import Card from '../../components/UI/Card';
 import './style.css';
 
 const Post = (props) => {
+  // console.log(props);
+
+
 return(
   <section className="container">
-    <BlogPost />
+    <BlogPost {...props} />
     <SideBar />
   </section>
 )

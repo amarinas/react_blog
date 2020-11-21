@@ -24,11 +24,12 @@
   font-style: italic;
   padding: 10px;
   display: block;
+  color: lightblue;
 }
 
 .postImageContainer {
   width: 100%;
-  padding: 5px;
+  padding: 10px;
   box-sizing: border-box;
 }
 
