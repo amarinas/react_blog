@@ -46,7 +46,7 @@ return(
         posts.map(post =>{
           return(
             
-            <NavLink to={'/${post.id}'}>
+            <NavLink to={`/post/${post.id}`}>
             <div className="recentPost">
               <h3>{post.blogTitle}</h3>
               <span>{post.postedOn}</span>
