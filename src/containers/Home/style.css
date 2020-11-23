@@ -1,0 +1,8 @@
+.galleryPost {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sideImageWrapper div {
+  width: 100%;
+}
