@@ -9,7 +9,7 @@ import './style.css';
 const Home = props => {
   const galleryHeight = 450;
   const galleryStyle = {
-    height: galleryHeight+'px',
+    height: galleryHeight+"px",
     overflow: 'hidden'
   }
 
@@ -30,12 +30,7 @@ const Home = props => {
           <div sytle={{height: `${sideImage}px`}}>
             <img src="https://images.unsplash.com/photo-1605812276723-c31bb1a68285?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt ="not found"></img>
           </div>
-          <div sytle={{height: `${sideImage}px`}}>
-            <img src="https://images.unsplash.com/photo-1605812276723-c31bb1a68285?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt ="not found"></img>
-          </div>
-          <div sytle={{height: `${sideImage}px`}}>
-            <img src="https://images.unsplash.com/photo-1605812276723-c31bb1a68285?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt ="not found"></img>
-          </div>
+ 
         </section>         
         </div>
 
